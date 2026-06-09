@@ -12,7 +12,8 @@ library(tidyverse)
 
 lstmax <- rast("data/rasters/lst_max_sant.tif") #Temperatura máxima de superfície
 dist  <- rast("data/rasters/dist_river_sant.tif") #Santarem com distancia (0,5 m)
-cob <- rast("data/rasters/tree_cover_sant.tif") #Cobertura vegetal de santarem (0,5 m)
+cob <- rast("data/rasters/
+            floresta-mapbiomas_integrado_treecover_santarem.tif") #Cobertura vegetal de santarem (0,5 m)
 ai <- rast("data/rasters/ai_120m_sant.tif") #Entropia escala de 120 m
 dist_tree <- rast("data/rasters/dist_florests_sant.tif") #Distancia floresta (120 m)
 
