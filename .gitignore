@@ -3,4 +3,5 @@
 .RData
 .Ruserdata
 data/rasters/
-*.tif
+dist_florests_sant.tif
+floresta-mapbiomas_integrado_treecover_manaus.tif
